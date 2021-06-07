@@ -1,5 +1,5 @@
 {
-  "name": "zoom",
+  "name": "Pizzano",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
-
     "bootstrap": "^4.5.3",
     "css-loader": "^5.0.0",
+    "exports-loader": "^3.0.0",
     "expose-loader": "^1.0.1",
     "file-loader": "^6.2.0",
     "html-loader": "^1.3.2",
@@ -31,5 +31,7 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-jquery-ui": "^2.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "wow.js": "^1.2.2"
+  }
 }

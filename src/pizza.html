@@ -12,16 +12,25 @@
 <body>
    
     <div class="container-fluid top ">
+        <video autoplay muted loop >
+            <source src="../src/vid/top view male and female hands taking slices of pizza - video background for WebSite.mp4" type="video/mp4">
+            </video>
         
         <div class="row">
             <nav class="navbar custom-navbar navbar-expand-lg">
                 <div class="logo">
-                    <img src="../src/img/logooo.png" alt="">
-                </div>
-
-                <div class="restaurent-name">
-                    <p>Pizzano</p>
-                </div>
+                    <a href="index.html"><img src="../src/img/logooo.png" alt=""></a> 
+                 </div>
+ 
+                 <div class="restaurent-name">
+                     <a href="index.html" class="linkey"><p>Pizzano</p></a> 
+                 </div>
+                <div class="dropdown">
+                    <button class="navbar-toggler btn btn-icon collapsed custom-dropdown-menu" data-toggle="collapse"
+                   data-target="#navbar-collapsed-menu" id="dropdownMenuButton"> 
+                   <i class="fas fa-bars"></i>
+                   </button>             
+             </div>
 
                 <div class="container">
                     <div class="collapse navbar-collapse" id="navbar-collapsed-menu">
@@ -675,18 +684,19 @@
                 <div id="footer-nav-links" class="col-12 d-none d-md-block">
                     <a href="./index.html">Home page</a>
                     <a href="pizza.html">Pizza</a>
-                    <a href="./Jobs.html">job opportunities</a>
+                    <a href="./about.html">About</a>
+                    <a href="./Jobs.html">Job Opportunities</a>
                     <a href="contact.html">Contact us</a>
                 </div>
                 <div id="newsletter" class="col-12 col-md-6 offset-md-3">
                     <form>
                         <label for="footer-email">
-                            Get notified by our Offers and Job opportunities ...
+                            Get notified by our Offers and Job Opportunities ...
                         </label>
                         <br>
                         <div class="input-group">
-                            <button type="submit" class="btn   custom-btn-primary2" id="follow">
-                                Follow
+                            <button type="submit" class="btn   custom-btn-primary2" id="Send">
+                                Send
                             </button>
                             <input id="footer-email" class="form-control custom-form-control" type="email"
                                 placeholder="Your Email" name="email" style="direction:ltr; text-align: center;" required>

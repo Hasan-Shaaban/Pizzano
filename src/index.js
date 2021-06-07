@@ -9,6 +9,7 @@ import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap';
 import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';
+import './wow/wow.js';
 
 
 
@@ -20,6 +21,7 @@ $(function() {
       alert('Add product to buying cart');
   });
   
+
 });
 
 

@@ -20,7 +20,7 @@ body {
 .restaurent-name {
   margin-left: 30px;
   color: rgba(247, 70, 70, 0.8);
-  font-size: 80px;
+  font-size: 65px;
 }
 
 .container-fluid.top {
@@ -41,6 +41,8 @@ body {
   box-shadow: 0 2px 5px 0 white;
   border-radius: 9px;
   color: rgba(247, 70, 70, 0.8);
+  margin-left: 10px;
+  display: none;
 }
 
 .custom-btn-primary {
@@ -75,10 +77,6 @@ body {
   width: 150px;
   height: 50px;
   border-radius: 5px;
-}
-
-.custom-dropdown-menu .checkbox label input {
-  margin-left: 5px;
 }
 
 .custom-navbar .navbar-nav li a.nav-link {
@@ -224,13 +222,6 @@ video {
   opacity: 0.2;
 }
 
-.sale {
-  background-color: rgba(247, 70, 70, 0.8);
-  color: white;
-  font-weight: bold;
-  position: absolute;
-}
-
 #carousel-featured .material-details h1 {
   font-weight: 700;
   font-size: 175%;
@@ -293,22 +284,6 @@ video {
   margin-top: 15px;
   font-size: 18px;
   border-radius: 2px;
-}
-
-#carousel-featured .material-details .sale.large span {
-  font-size: 14px;
-}
-
-#carousel-featured-1 .material-details .sale.large span {
-  font-size: 14px;
-}
-
-#carousel-featured-2 .material-details .sale.large span {
-  font-size: 14px;
-}
-
-#carousel-featured-3 .material-details .sale.large span {
-  font-size: 14px;
 }
 
 .custom-carousel-indicators-primary {
@@ -496,10 +471,6 @@ a:hover {
   opacity: 0.6;
 }
 
-.custom-thumbnail .sale::before {
-  content: "-";
-}
-
 #carousel-most-sold .carousel-indicators {
   position: static;
   color: rgba(247, 70, 70, 0.8);
@@ -609,13 +580,13 @@ a:hover {
 }
 
 .custom-text-muted {
-  color: #A9A9A9;
+  color: #5a5a5a;
 }
 
 .custom-arrow-btn {
-  background-color: #fff;
+  background-color: white;
   color: #868686;
-  border: 1px solid #EBEBEB;
+  border: 1px solid white;
   box-shadow: none;
   border-radius: 2px;
   padding: 5px 10px;
@@ -639,12 +610,12 @@ a:hover {
 }
 
 #row-foods h3.custom-heading {
-  border-top: 1px solid #EEF0EA;
+  border-top: 1px solid white;
   padding-top: 25px;
 }
 
 #food-logos {
-  background-color: #d6d6d6;
+  background-color: white;
   padding: 25px 0;
   color: #555555;
 }
@@ -678,7 +649,7 @@ a:hover {
   color: rgba(247, 70, 70, 0.8);
 }
 
-#footer-nav #newsletter {
+#footer-nav #opportunities {
   border-top: 2px solid rgba(247, 70, 70, 0.8);
 }
 
@@ -687,37 +658,35 @@ a:hover {
   margin: auto;
 }
 
+.linkey {
+  text-decoration: none;
+  color: inherit;
+}
+
 #footer-nav form label {
   margin: 27px 0 16px;
   font-size: 12px;
   font-weight: bold;
-  color: #555555;
-}
-
-#newsletter form input {
-  background-color: #313131;
-  opacity: 0.6;
-  border: none;
-  height: 38px;
+  color: rgba(180, 180, 180, 0.9);
 }
 
 input[type=email], input[type=number] {
   direction: ltr;
-  text-align: right;
+  text-align: left;
 }
 
-#newsletter form button {
+#opportunities form button {
   border-radius: 0px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  font-size: 14px;
-  padding: 6px 12px 5px;
+  font-size: 16px;
+  padding: 6px 12px 6px;
   color: inherit;
   height: 38px;
 }
 
 #footer-copyright-social {
-  background-color: #151515;
+  background-color: #131313;
   color: #303030;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -737,7 +706,7 @@ input[type=email], input[type=number] {
 }
 
 #carousel-material-images .carousel-item img {
-  border: 1px solid #EBEBEB;
+  border: 1px solid white;
   width: 100%;
 }
 
@@ -758,9 +727,14 @@ input[type=email], input[type=number] {
 }
 
 .borders-between > div + div {
-  border-top: 1px solid #EBEBEB;
+  border-top: 1px solid white;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.map {
+  margin-left: 70px;
+  margin-top: 20px;
 }
 
 .custom-btn-with-icon {
@@ -771,7 +745,7 @@ input[type=email], input[type=number] {
 }
 
 .heading-with-border-bottom {
-  border-bottom: 2px solid #EBEBEB;
+  border-bottom: 2px solid white;
   padding-bottom: 15px;
 }
 
@@ -797,7 +771,7 @@ input[type=email], input[type=number] {
   width: 80px;
   height: 80px;
   margin-left: 10px;
-  border: 1px solid #dfdfdf;
+  border: 1px solid white;
 }
 
 .comments .media .media-heading {
@@ -808,7 +782,7 @@ input[type=email], input[type=number] {
 .custom-table .custom-media img {
   width: 80px;
   height: 80px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid white;
   margin-left: 10px;
 }
 
@@ -821,22 +795,6 @@ input[type=email], input[type=number] {
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 15px;
-}
-
-.custom-table .total-price .custom-text-muted .custom-text-muted {
-  color: #A9A9A9;
-}
-
-#form-advanced-search {
-  border: 1px solid #EBEBEB;
-  padding-bottom: 20px;
-  margin-bottom: 35px;
-  display: table;
-}
-
-#form-advanced-search .custom-panel {
-  border: none;
-  padding: 5px;
 }
 
 .custom-panel .card-header {
@@ -860,51 +818,7 @@ input[type=email], input[type=number] {
 }
 
 .custom-list-group {
-  border-bottom: 1px solid #EBEBEB;
-}
-
-#form-advanced-search label {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.custom-pagination li a {
-  border: 1px solid #EBEBEB;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
-  margin-right: 3px;
-  margin-left: 3px;
-  color: #C2C2C2;
-  display: inline-block;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.custom-pagination li.active a {
-  background-color: rgba(247, 70, 70, 0.8);
-  color: #fff;
-  border-color: rgba(247, 70, 70, 0.8);
-}
-
-.custom-pagination li a:active,
-.custom-pagination li a:focus,
-.custom-pagination li a:hover {
-  color: rgba(247, 70, 70, 0.8);
-  border-color: rgba(247, 70, 70, 0.8);
-}
-
-.custom-pagination {
-  margin: 25px 0;
-}
-
-#search-results .custom-thumbnail {
-  margin-right: -8px;
-  margin-left: -8px;
-}
-
-#search-results h3.heading-with-border-bottom {
-  margin-top: 0;
+  border-bottom: 1px solid white;
 }
 
 #map {
@@ -912,16 +826,23 @@ input[type=email], input[type=number] {
 }
 
 #contact-options h4 {
-  font-size: 18px;
+  font-size: 25px;
   padding-bottom: 12px;
+  padding-left: 10px;
+  margin-top: 30px;
+  background-color: rgba(180, 180, 180, 0.9);
+  color: rgba(247, 70, 70, 0.8);
+  border-radius: 5px;
 }
 
 #contact-options .heading-with-border-bottom {
   margin-bottom: 30px;
+  text-align: left;
 }
 
 #contact-info {
   margin-bottom: 25px;
+  text-align: left;
 }
 
 #contact-info .fa-lg {
@@ -929,27 +850,37 @@ input[type=email], input[type=number] {
   font-size: 18px;
   margin: 10px;
   width: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 #contact-options textarea {
   height: 128px !important;
+  margin-top: 15px;
 }
 
 #contact-options {
   margin-bottom: 25px;
 }
 
-@media (max-width: 991px) {
-  .ui-slider .ui-slider-handle {
-    height: 20px;
-    width: 20px;
-    top: -10px;
+@media (max-width: 1000px) {
+  .custom-dropdown-menu {
+    box-shadow: 0 2px 5px 0 white;
+    border-radius: 9px;
+    color: rgba(247, 70, 70, 0.8);
+    margin-left: 10px;
+    display: block;
   }
 }
 @media (max-width: 1199px) {
   .custom-navbar .navbar-nav li a.nav-link {
     padding: 8px;
+    z-index: 10;
+  }
+}
+@media (max-width: 1090px) {
+  .custom-navbar .navbar-nav li a.nav-link {
+    padding: 8px;
+    font-size: 15px;
   }
 }
 @media (max-width: 991px) {
@@ -978,23 +909,15 @@ input[type=email], input[type=number] {
     padding: 10px 0;
   }
 
-  .form-inline .dropdown {
-    display: none;
-  }
-
   .form-inline .custom-form-control {
     width: 90%;
-  }
-
-  .form-inline .search-btn {
-    width: 10%;
   }
 
   .custom-navbar a.btn-icon,
 .custom-navbar button.btn-icon {
     padding: 5px 10px 4px;
     color: rgba(180, 180, 180, 0.9);
-    border: 1px solid #ddd;
+    border: 1px solid white;
     background-color: transparent;
     border-radius: 2px;
     font-size: 18px;
@@ -1007,12 +930,48 @@ input[type=email], input[type=number] {
 
   .custom-navbar .navbar-nav li a.nav-link {
     padding: 10px 15px;
+    background-color: rgba(180, 180, 180, 0.9);
+    border-radius: 5px;
+    color: rgba(247, 70, 70, 0.8);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .custom-navbar .navbar-nav li.active a.nav-link {
+    padding: 10px 15px;
+    background-color: rgba(247, 70, 70, 0.8);
+    border-radius: 5px;
+    color: rgba(180, 180, 180, 0.9);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .custom-navbar .navbar-nav li.active a.nav-link:hover {
+    padding: 10px 15px;
+    background-color: rgba(180, 180, 180, 0.9);
+    border-radius: 5px;
+    color: rgba(247, 70, 70, 0.8);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .custom-navbar .navbar-nav li a.nav-link:hover {
+    padding: 10px 15px;
+    background-color: rgba(247, 70, 70, 0.8);
+    border-radius: 5px;
+    color: rgba(180, 180, 180, 0.9);
+    padding-right: 0px;
+    margin-right: 0px;
+    text-align: center;
   }
 
   .navbar-collapse {
-    border-top: 1px solid #eee;
-    margin-top: 15px;
-    padding-top: 8px;
+    z-index: 30;
+    padding-right: 0px;
   }
 
   #carousel-featured .carousel-indicators {
@@ -1068,7 +1027,7 @@ input[type=email], input[type=number] {
   }
 }
 @media (max-width: 767px) {
-  #footer-nav #newsletter {
+  #footer-nav #opportunities {
     width: auto;
   }
 
@@ -1155,8 +1114,9 @@ input[type=email], input[type=number] {
     width: 100%;
   }
 
-  #newsletter form .input-group {
+  #opportunities form .input-group {
     width: 100%;
+    text-align: left;
   }
 
   .hide-on-small {
