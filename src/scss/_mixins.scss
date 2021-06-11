@@ -1,0 +1,22 @@
+@mixin carousel-button-color($cc){
+    color: $cc;
+    font-size: 20px;
+}
+
+@mixin h1($h1){
+    margin-bottom:25px;
+    background-color: $h1;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 36px ;
+    margin: 25px 0;
+
+}
+@mixin custom-panel($cp){
+    border: 4px solid $cp;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
